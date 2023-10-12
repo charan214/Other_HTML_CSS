@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            width:150px;
+            display: inline-block;
+        }
+        fieldset{
+            width:600px;
+        }
+    </style>
+</head>
+<body>    
+<fieldset>
+    <legend>HTML Form</legend>
+        <form action="C:\Users\R A M C H A R A N\Desktop\New folder (3)" method="post">
+            <div style="margin-top:20px;">
+            <label for="FName:">First Name:</label>
+            <input type="text" name="FName:" id="FName" value="Enter"><br>
+            </div>
+            <div style="margin-top:20px;">
+            <label for="LName">Last Name:</label>
+            <input type="text" name="LName:" id="LName"><br>
+            </div>
+            <div style="margin-top:20px;">
+            <label for="Dob">Date of Birth:</label>
+            <input type="date" name="Dob:" id="Dob"><br>
+            </div>
+            <div style="margin-top:20px;">
+            <label for="Ed">Email id:</label>
+            <input type="email" name="Ed" id="Ed" required><br>
+            </div>
+            <div style="margin-top:20px">
+            <label for="Num">Mobile Number:</label>
+            <input type="text" name="Num" id="Num"><br>
+            </div>
+            <div style="margin-top:20px;">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </div>
+            <h4>select language</h4>
+            <div>
+                <div>
+                <label for="Java">Java</label>
+                <input type="radio" id="Java" name="fav_lang">
+                </div>
+                <div>
+                <label for="Python">Python</label>
+                <input type="radio" id="Python" name="fav_lang">
+                </div>
+                <label for="Html">Html</label>
+                <input type="radio" id="Html" name="fav_lang">
+            </div>
+            <h4>select place</h4>
+            <div>
+                <select name="place" id="place">
+                    <option value="select"></option>
+                    <option value="Hyd">Hydrebad</option>
+                    <option value="Mum">Mumbai</option>
+                    <option value="Goa">Goa</option>
+                </select>
+            </div>
+        </form>
+</fieldset>
+
+    </form>
+    
+</body>
+</html>
